@@ -1,0 +1,12 @@
+C:\Users\HK\Desktop\HK\Code\MicroService.Project\MicroService-contracts\src\MicroService.Contracts.Events\bin\Release\net10.0\MicroService.Contracts.Events.deps.json
+C:\Users\HK\Desktop\HK\Code\MicroService.Project\MicroService-contracts\src\MicroService.Contracts.Events\bin\Release\net10.0\MicroService.Contracts.Events.dll
+C:\Users\HK\Desktop\HK\Code\MicroService.Project\MicroService-contracts\src\MicroService.Contracts.Events\bin\Release\net10.0\MicroService.Contracts.Events.pdb
+C:\Users\HK\Desktop\HK\Code\MicroService.Project\MicroService-contracts\src\MicroService.Contracts.Events\obj\Release\net10.0\MicroService.Contracts.Events.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HK\Desktop\HK\Code\MicroService.Project\MicroService-contracts\src\MicroService.Contracts.Events\obj\Release\net10.0\MicroService.Contracts.Events.AssemblyInfoInputs.cache
+C:\Users\HK\Desktop\HK\Code\MicroService.Project\MicroService-contracts\src\MicroService.Contracts.Events\obj\Release\net10.0\MicroService.Contracts.Events.AssemblyInfo.cs
+C:\Users\HK\Desktop\HK\Code\MicroService.Project\MicroService-contracts\src\MicroService.Contracts.Events\obj\Release\net10.0\MicroService.Contracts.Events.csproj.CoreCompileInputs.cache
+C:\Users\HK\Desktop\HK\Code\MicroService.Project\MicroService-contracts\src\MicroService.Contracts.Events\obj\Release\net10.0\MicroService.Contracts.Events.sourcelink.json
+C:\Users\HK\Desktop\HK\Code\MicroService.Project\MicroService-contracts\src\MicroService.Contracts.Events\obj\Release\net10.0\MicroService.Contracts.Events.dll
+C:\Users\HK\Desktop\HK\Code\MicroService.Project\MicroService-contracts\src\MicroService.Contracts.Events\obj\Release\net10.0\refint\MicroService.Contracts.Events.dll
+C:\Users\HK\Desktop\HK\Code\MicroService.Project\MicroService-contracts\src\MicroService.Contracts.Events\obj\Release\net10.0\MicroService.Contracts.Events.pdb
+C:\Users\HK\Desktop\HK\Code\MicroService.Project\MicroService-contracts\src\MicroService.Contracts.Events\obj\Release\net10.0\ref\MicroService.Contracts.Events.dll

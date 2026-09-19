@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Abc.Contracts.Events</id>
+    <version>1.0.0</version>
+    <authors>MicroService.Contracts.Events</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="bbc0a748e7641051648abb0b6f1bde851f6a51f2" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\HK\Desktop\HK\Code\MicroService.Project\MicroService-contracts\src\MicroService.Contracts.Events\bin\Release\net8.0\MicroService.Contracts.Events.dll" target="lib\net8.0\MicroService.Contracts.Events.dll" />
+  </files>
+</package>
