@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\HK\\Desktop\\HK\\Code\\MicroService.Project\\MicroService-contracts\\src\\MicroService.Contracts.Events\\MicroService.Contracts.Events.csproj",
-        "projectName": "Abc.Contracts.Events",
+        "projectName": "MicroService.Contracts.Events",
         "projectPath": "C:\\Users\\HK\\Desktop\\HK\\Code\\MicroService.Project\\MicroService-contracts\\src\\MicroService.Contracts.Events\\MicroService.Contracts.Events.csproj",
         "packagesPath": "C:\\Users\\HK\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\HK\\Desktop\\HK\\Code\\MicroService.Project\\MicroService-contracts\\src\\MicroService.Contracts.Events\\obj\\",
@@ -26,7 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/harshk16/index.json": {}
         },
         "frameworks": {
           "net8.0": {
