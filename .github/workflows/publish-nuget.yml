@@ -8,6 +8,7 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -18,10 +19,13 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Restore
-        run: dotnet restore src/MicroService.Contracts.Events
+        run: dotnet restore src/MicroService.Contracts.Events/MicroService.Contracts.Events.csproj
 
       - name: Pack
-        run: dotnet pack src/MicroService.Contracts.Events --configuration Release --output ./output
+        run: dotnet pack src/MicroService.Contracts.Events/MicroService.Contracts.Events.csproj --configuration Release --output ./output
 
       - name: Push to GitHub Packages
-        run: dotnet nuget push "./output/*.nupkg" --source "https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json" --api-key ${{ secrets.Nuget_GITHUB_TOKEN }} --skip-duplicate
+        run: dotnet nuget push "./output/*.nupkg" \
+          --source "https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json" \
+          --api-key ${{ secrets.Nuget_GITHUB_TOKEN }} \
+          --skip-duplicate
