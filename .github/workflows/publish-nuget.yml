@@ -22,67 +22,22 @@ jobs:
         id: find-project
         shell: bash
         run: |
-          echo "========================================"
-          echo "Current directory"
-          echo "========================================"
-          pwd
-
-          echo ""
-          echo "========================================"
-          echo "Repository contents"
-          echo "========================================"
-          ls -la
-
-          echo ""
-          echo "========================================"
-          echo "Searching for .csproj files"
-          echo "========================================"
-
           PROJECT_FILE=$(find . -type f -name "MicroService.Contracts.Events.csproj" | head -n 1)
-
           if [ -z "$PROJECT_FILE" ]; then
-            echo "ERROR: MicroService.Contracts.Events.csproj was not found."
-            echo ""
-            echo "All .csproj files found:"
-            find . -type f -name "*.csproj" -print
+            echo "ERROR: project not found"
             exit 1
           fi
-
-          echo "Project found:"
-          echo "$PROJECT_FILE"
-
-          echo ""
-          echo "Project directory:"
-          dirname "$PROJECT_FILE"
-
-          echo ""
-          echo "Project file details:"
-          ls -la "$PROJECT_FILE"
-
-          echo ""
-          echo "Saving project path for next steps..."
-
           echo "project_file=$PROJECT_FILE" >> "$GITHUB_OUTPUT"
 
-      - name: Log project path
-        run: |
-          echo "Project path:"
-          echo "${{ steps.find-project.outputs.project_file }}"
-
       - name: Restore
-        run: |
-          dotnet restore "${{ steps.find-project.outputs.project_file }}"
+        run: dotnet restore "${{ steps.find-project.outputs.project_file }}"
 
       - name: Pack
         run: |
           dotnet pack "${{ steps.find-project.outputs.project_file }}" \
             --configuration Release \
-            --output ./output
-
-      - name: Show generated package
-        run: |
-          echo "Generated NuGet packages:"
-          ls -la ./output
+            --output ./output \
+            -p:PackageVersion=1.0.${{ github.run_number }}
 
       - name: Push to GitHub Packages
         run: |
