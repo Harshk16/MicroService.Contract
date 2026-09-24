@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org",
+  "title": "OrderCreatedEvent",
+  "type": "object",
+  "properties": {
+    "OrderId": { "type": "string", "format": "uuid" },
+    "Amount": { "type": "number" },
+    "CorrelationId": { "type": "string" }
+  },
+  "required": ["OrderId", "Amount", "CorrelationId"]
+}

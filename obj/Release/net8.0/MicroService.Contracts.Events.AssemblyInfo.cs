@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MicroService.Contracts.Events")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54a98df9d3d2ffc9849f1dbb75415136e8b2da10")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5eb4a56bcb49cd4adda7eb39dd06afa952965f6a")]
 [assembly: System.Reflection.AssemblyProductAttribute("MicroService.Contracts.Events")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MicroService.Contracts.Events")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

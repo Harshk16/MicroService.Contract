@@ -5,7 +5,7 @@
     <version>1.0.0</version>
     <authors>MicroService.Contracts.Events</authors>
     <description>Package Description</description>
-    <repository type="git" url="https://github.com/Harshk16/MicroService.Contracts" commit="54a98df9d3d2ffc9849f1dbb75415136e8b2da10" />
+    <repository type="git" url="https://github.com/Harshk16/MicroService.Contracts" commit="5eb4a56bcb49cd4adda7eb39dd06afa952965f6a" />
     <dependencies>
       <group targetFramework="net8.0" />
     </dependencies>
